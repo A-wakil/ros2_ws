@@ -1,0 +1,19 @@
+[2.919s] Invoking command in '/home/abdul/ros2_ws/build/rover_control': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdul/ros2_ws/build/rover_control/build --no-deps symlink_data
+[4.188s] running develop
+[4.190s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.190s]   warnings.warn(
+[5.033s] running egg_info
+[5.034s] writing rover_control.egg-info/PKG-INFO
+[5.035s] writing dependency_links to rover_control.egg-info/dependency_links.txt
+[5.036s] writing entry points to rover_control.egg-info/entry_points.txt
+[5.037s] writing requirements to rover_control.egg-info/requires.txt
+[5.037s] writing top-level names to rover_control.egg-info/top_level.txt
+[5.045s] reading manifest file 'rover_control.egg-info/SOURCES.txt'
+[5.049s] writing manifest file 'rover_control.egg-info/SOURCES.txt'
+[5.055s] running build_ext
+[5.056s] Creating /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover-control.egg-link (link to .)
+[5.059s] Installing rover_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control
+[5.061s] 
+[5.062s] Installed /home/abdul/ros2_ws/build/rover_control
+[5.062s] running symlink_data
+[5.211s] Invoked command in '/home/abdul/ros2_ws/build/rover_control' returned '0': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdul/ros2_ws/build/rover_control/build --no-deps symlink_data

@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.001647] (rover_control) JobQueued: {'identifier': 'rover_control', 'dependencies': OrderedDict()}
+[0.001784] (rover_control) JobStarted: {'identifier': 'rover_control'}
+[0.098967] (-) TimerEvent: {}
+[0.199622] (-) TimerEvent: {}
+[0.300302] (-) TimerEvent: {}
+[0.401026] (-) TimerEvent: {}
+[0.501797] (-) TimerEvent: {}
+[0.602488] (-) TimerEvent: {}
+[0.703227] (-) TimerEvent: {}
+[0.804080] (-) TimerEvent: {}
+[0.904728] (-) TimerEvent: {}
+[1.005403] (-) TimerEvent: {}
+[1.106082] (-) TimerEvent: {}
+[1.206719] (-) TimerEvent: {}
+[1.307719] (-) TimerEvent: {}
+[1.409379] (-) TimerEvent: {}
+[1.510313] (-) TimerEvent: {}
+[1.611095] (-) TimerEvent: {}
+[1.711923] (-) TimerEvent: {}
+[1.812597] (-) TimerEvent: {}
+[1.913240] (-) TimerEvent: {}
+[2.013922] (-) TimerEvent: {}
+[2.114604] (-) TimerEvent: {}
+[2.215252] (-) TimerEvent: {}
+[2.315941] (-) TimerEvent: {}
+[2.416578] (-) TimerEvent: {}
+[2.517243] (-) TimerEvent: {}
+[2.617975] (-) TimerEvent: {}
+[2.718606] (-) TimerEvent: {}
+[2.819341] (-) TimerEvent: {}
+[2.920319] (-) TimerEvent: {}
+[3.021939] (-) TimerEvent: {}
+[3.037420] (rover_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/abdul/ros2_ws/build/rover_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/abdul/ros2_ws/build/rover_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdul', 'SSH_CLIENT': '127.0.0.1 39252 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/abdul', 'OLDPWD': '/home/abdul', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-730eff17-71ea-4b14-a21a-18ed07c109e4.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/abdul/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b5ad98479e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/abdul/ros2_ws/install/rover_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/abdul/ros2_ws/build/rover_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '127.0.0.1 39252 127.0.0.1 22', 'XDG_DATA_DIRS': '/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/home/abdul/ros2_ws/build/rover_control:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.122054] (-) TimerEvent: {}
+[3.222761] (-) TimerEvent: {}
+[3.323534] (-) TimerEvent: {}
+[3.424219] (-) TimerEvent: {}
+[3.524886] (-) TimerEvent: {}
+[3.625593] (-) TimerEvent: {}
+[3.726248] (-) TimerEvent: {}
+[3.826895] (-) TimerEvent: {}
+[3.927572] (-) TimerEvent: {}
+[4.028223] (-) TimerEvent: {}
+[4.128875] (-) TimerEvent: {}
+[4.229586] (-) TimerEvent: {}
+[4.276370] (rover_control) StdoutLine: {'line': b'running develop\n'}
+[4.282897] (rover_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.283575] (rover_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.329774] (-) TimerEvent: {}
+[4.430517] (-) TimerEvent: {}
+[4.531147] (-) TimerEvent: {}
+[4.631864] (-) TimerEvent: {}
+[4.732564] (-) TimerEvent: {}
+[4.833233] (-) TimerEvent: {}
+[4.933868] (-) TimerEvent: {}
+[5.034529] (-) TimerEvent: {}
+[5.119165] (rover_control) StdoutLine: {'line': b'running egg_info\n'}
+[5.120179] (rover_control) StdoutLine: {'line': b'writing rover_control.egg-info/PKG-INFO\n'}
+[5.120945] (rover_control) StdoutLine: {'line': b'writing dependency_links to rover_control.egg-info/dependency_links.txt\n'}
+[5.122000] (rover_control) StdoutLine: {'line': b'writing entry points to rover_control.egg-info/entry_points.txt\n'}
+[5.122817] (rover_control) StdoutLine: {'line': b'writing requirements to rover_control.egg-info/requires.txt\n'}
+[5.123850] (rover_control) StdoutLine: {'line': b'writing top-level names to rover_control.egg-info/top_level.txt\n'}
+[5.131387] (rover_control) StdoutLine: {'line': b"reading manifest file 'rover_control.egg-info/SOURCES.txt'\n"}
+[5.134655] (-) TimerEvent: {}
+[5.136650] (rover_control) StdoutLine: {'line': b"writing manifest file 'rover_control.egg-info/SOURCES.txt'\n"}
+[5.142838] (rover_control) StdoutLine: {'line': b'running build_ext\n'}
+[5.143884] (rover_control) StdoutLine: {'line': b'Creating /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover-control.egg-link (link to .)\n'}
+[5.148009] (rover_control) StdoutLine: {'line': b'Installing rover_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control\n'}
+[5.149515] (rover_control) StdoutLine: {'line': b'\n'}
+[5.150146] (rover_control) StdoutLine: {'line': b'Installed /home/abdul/ros2_ws/build/rover_control\n'}
+[5.150534] (rover_control) StdoutLine: {'line': b'running symlink_data\n'}
+[5.234927] (-) TimerEvent: {}
+[5.299089] (rover_control) CommandEnded: {'returncode': 0}
+[5.335061] (-) TimerEvent: {}
+[5.385865] (rover_control) JobEnded: {'identifier': 'rover_control', 'rc': 0}
+[5.390098] (-) EventReactorShutdown: {}

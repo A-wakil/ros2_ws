@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing rover_control.egg-info/PKG-INFO
+writing dependency_links to rover_control.egg-info/dependency_links.txt
+writing entry points to rover_control.egg-info/entry_points.txt
+writing requirements to rover_control.egg-info/requires.txt
+writing top-level names to rover_control.egg-info/top_level.txt
+reading manifest file 'rover_control.egg-info/SOURCES.txt'
+writing manifest file 'rover_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover-control.egg-link (link to .)
+Installing rover_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control
+
+Installed /home/abdul/ros2_ws/build/rover_control
+running symlink_data

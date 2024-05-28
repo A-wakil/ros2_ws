@@ -1,0 +1,3 @@
+[console_scripts]
+rover_control_node = rover_control.rover_control_node:main
+
