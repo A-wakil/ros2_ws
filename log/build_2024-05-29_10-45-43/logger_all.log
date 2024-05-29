@@ -1,0 +1,177 @@
+[1.962s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.963s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa76f5f90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa76f5a20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa76f5a20>>, mixin_verb=('build',))
+[3.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.747s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abdul/ros2_ws'
+[3.747s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.749s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.845s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.851s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.853s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['ignore', 'ignore_ament_install']
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'ignore'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'ignore_ament_install'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['colcon_pkg']
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'colcon_pkg'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['colcon_meta']
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'colcon_meta'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extensions ['ros']
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/encoder_reader) by extension 'ros'
+[3.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/encoder_reader' with type 'ros.ament_python' and name 'encoder_reader'
+[3.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extensions ['ignore', 'ignore_ament_install']
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extension 'ignore'
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extension 'ignore_ament_install'
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extensions ['colcon_pkg']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extension 'colcon_pkg'
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extensions ['colcon_meta']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extension 'colcon_meta'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extensions ['ros']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_control) by extension 'ros'
+[3.901s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover_control' with type 'ros.ament_python' and name 'rover_control'
+[3.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/abdul/ros2_ws/install
+[4.186s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[4.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_args' from command line to 'None'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_target' from command line to 'None'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_clean_first' from command line to 'False'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'cmake_force_configure' from command line to 'False'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'ament_cmake_args' from command line to 'None'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[4.587s] Level 5:colcon.colcon_core.verb:set package 'encoder_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.587s] DEBUG:colcon.colcon_core.verb:Building package 'encoder_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdul/ros2_ws/build/encoder_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdul/ros2_ws/install/encoder_reader', 'merge_install': False, 'path': '/home/abdul/ros2_ws/src/encoder_reader', 'symlink_install': False, 'test_result_base': None}
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'cmake_args' from command line to 'None'
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'cmake_target' from command line to 'None'
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'rover_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.590s] DEBUG:colcon.colcon_core.verb:Building package 'rover_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdul/ros2_ws/build/rover_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdul/ros2_ws/install/rover_control', 'merge_install': False, 'path': '/home/abdul/ros2_ws/src/rover_control', 'symlink_install': False, 'test_result_base': None}
+[4.591s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.596s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abdul/ros2_ws/src/encoder_reader' with build type 'ament_python'
+[4.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_reader', 'ament_prefix_path')
+[4.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/hook/ament_prefix_path.ps1'
+[4.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/hook/ament_prefix_path.dsv'
+[4.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/hook/ament_prefix_path.sh'
+[4.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.668s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/abdul/ros2_ws/src/rover_control' with build type 'ament_python'
+[4.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_control', 'ament_prefix_path')
+[4.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/rover_control/share/rover_control/hook/ament_prefix_path.ps1'
+[4.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdul/ros2_ws/install/rover_control/share/rover_control/hook/ament_prefix_path.dsv'
+[4.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/rover_control/share/rover_control/hook/ament_prefix_path.sh'
+[4.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.458s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abdul/ros2_ws/src/encoder_reader'
+[6.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.813s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/abdul/ros2_ws/src/rover_control'
+[7.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdul/ros2_ws/src/encoder_reader': PYTHONPATH=/home/abdul/ros2_ws/build/encoder_reader/prefix_override:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/abdul/ros2_ws/build/encoder_reader/build install --record /home/abdul/ros2_ws/build/encoder_reader/install.log --single-version-externally-managed install_data
+[14.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdul/ros2_ws/src/rover_control': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/abdul/ros2_ws/build/rover_control/build install --record /home/abdul/ros2_ws/build/rover_control/install.log --single-version-externally-managed install_data
+[18.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdul/ros2_ws/src/encoder_reader' returned '0': PYTHONPATH=/home/abdul/ros2_ws/build/encoder_reader/prefix_override:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/abdul/ros2_ws/build/encoder_reader/build install --record /home/abdul/ros2_ws/build/encoder_reader/install.log --single-version-externally-managed install_data
+[18.461s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/encoder_reader' for CMake module files
+[18.465s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/encoder_reader' for CMake config files
+[18.481s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/encoder_reader/lib'
+[18.482s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/encoder_reader/bin'
+[18.483s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/encoder_reader/lib/pkgconfig/encoder_reader.pc'
+[18.484s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages'
+[18.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_reader', 'pythonpath')
+[18.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/hook/pythonpath.ps1'
+[18.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/hook/pythonpath.dsv'
+[18.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/hook/pythonpath.sh'
+[18.542s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/encoder_reader/bin'
+[18.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(encoder_reader)
+[18.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/package.ps1'
+[18.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/package.dsv'
+[18.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/package.sh'
+[18.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/package.bash'
+[18.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader/package.zsh'
+[18.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdul/ros2_ws/install/encoder_reader/share/colcon-core/packages/encoder_reader)
+[18.581s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/rover_control' for CMake module files
+[18.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdul/ros2_ws/src/rover_control' returned '0': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/abdul/ros2_ws/build/rover_control/build install --record /home/abdul/ros2_ws/build/rover_control/install.log --single-version-externally-managed install_data
+[18.588s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/rover_control' for CMake config files
+[18.594s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/rover_control/lib'
+[18.595s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/rover_control/bin'
+[18.595s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/rover_control/lib/pkgconfig/rover_control.pc'
+[18.596s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages'
+[18.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_control', 'pythonpath')
+[18.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/rover_control/share/rover_control/hook/pythonpath.ps1'
+[18.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdul/ros2_ws/install/rover_control/share/rover_control/hook/pythonpath.dsv'
+[18.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdul/ros2_ws/install/rover_control/share/rover_control/hook/pythonpath.sh'
+[18.608s] Level 1:colcon.colcon_core.environment:checking '/home/abdul/ros2_ws/install/rover_control/bin'
+[18.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_control)
+[18.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/rover_control/share/rover_control/package.ps1'
+[18.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdul/ros2_ws/install/rover_control/share/rover_control/package.dsv'
+[18.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/rover_control/share/rover_control/package.sh'
+[18.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/rover_control/share/rover_control/package.bash'
+[18.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdul/ros2_ws/install/rover_control/share/rover_control/package.zsh'
+[18.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdul/ros2_ws/install/rover_control/share/colcon-core/packages/rover_control)
+[18.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.623s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.731s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.037s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdul/ros2_ws/install/local_setup.ps1'
+[21.052s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdul/ros2_ws/install/_local_setup_util_ps1.py'
+[21.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdul/ros2_ws/install/setup.ps1'
+[21.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdul/ros2_ws/install/local_setup.sh'
+[21.112s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdul/ros2_ws/install/_local_setup_util_sh.py'
+[21.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdul/ros2_ws/install/setup.sh'
+[21.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdul/ros2_ws/install/local_setup.bash'
+[21.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdul/ros2_ws/install/setup.bash'
+[21.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdul/ros2_ws/install/local_setup.zsh'
+[21.145s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdul/ros2_ws/install/setup.zsh'

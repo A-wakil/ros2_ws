@@ -1,0 +1,34 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder-reader.egg-link (link to .)
+running egg_info
+writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt
+writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abdul/ros2_ws/build/encoder_reader/build
+creating /home/abdul/ros2_ws/build/encoder_reader/build/lib
+creating /home/abdul/ros2_ws/build/encoder_reader/build/lib/encoder_reader
+copying encoder_reader/__init__.py -> /home/abdul/ros2_ws/build/encoder_reader/build/lib/encoder_reader
+copying encoder_reader/encoder_reader_node.py -> /home/abdul/ros2_ws/build/encoder_reader/build/lib/encoder_reader
+running install
+running install_lib
+creating /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+copying /home/abdul/ros2_ws/build/encoder_reader/build/lib/encoder_reader/__init__.py -> /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+copying /home/abdul/ros2_ws/build/encoder_reader/build/lib/encoder_reader/encoder_reader_node.py -> /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+byte-compiling /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader/encoder_reader_node.py to encoder_reader_node.cpython-310.pyc
+running install_data
+copying resource/encoder_reader -> /home/abdul/ros2_ws/install/encoder_reader/share/ament_index/resource_index/packages
+copying package.xml -> /home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader
+running install_egg_info
+Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info
+running install_scripts
+Installing encoder_reader_node script to /home/abdul/ros2_ws/install/encoder_reader/lib/encoder_reader
+writing list of installed files to '/home/abdul/ros2_ws/build/encoder_reader/install.log'

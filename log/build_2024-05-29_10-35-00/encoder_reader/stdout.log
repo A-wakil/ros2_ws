@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating encoder_reader.egg-info
+writing encoder_reader.egg-info/PKG-INFO
+writing dependency_links to encoder_reader.egg-info/dependency_links.txt
+writing entry points to encoder_reader.egg-info/entry_points.txt
+writing requirements to encoder_reader.egg-info/requires.txt
+writing top-level names to encoder_reader.egg-info/top_level.txt
+writing manifest file 'encoder_reader.egg-info/SOURCES.txt'
+reading manifest file 'encoder_reader.egg-info/SOURCES.txt'
+writing manifest file 'encoder_reader.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder-reader.egg-link (link to .)
+Installing encoder_reader_node script to /home/abdul/ros2_ws/install/encoder_reader/lib/encoder_reader
+
+Installed /home/abdul/ros2_ws/build/encoder_reader
+running symlink_data
+creating /home/abdul/ros2_ws/install/encoder_reader/share/ament_index
+creating /home/abdul/ros2_ws/install/encoder_reader/share/ament_index/resource_index
+creating /home/abdul/ros2_ws/install/encoder_reader/share/ament_index/resource_index/packages
+symbolically linking /home/abdul/ros2_ws/build/encoder_reader/resource/encoder_reader -> /home/abdul/ros2_ws/install/encoder_reader/share/ament_index/resource_index/packages
+symbolically linking /home/abdul/ros2_ws/build/encoder_reader/package.xml -> /home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader

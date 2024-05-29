@@ -1,0 +1,21 @@
+[4.734s] Invoking command in '/home/abdul/ros2_ws/src/rover_control': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/abdul/ros2_ws/build/rover_control/build install --record /home/abdul/ros2_ws/build/rover_control/install.log --single-version-externally-managed install_data
+[6.109s] running egg_info
+[6.112s] writing ../../build/rover_control/rover_control.egg-info/PKG-INFO
+[6.114s] writing dependency_links to ../../build/rover_control/rover_control.egg-info/dependency_links.txt
+[6.115s] writing entry points to ../../build/rover_control/rover_control.egg-info/entry_points.txt
+[6.118s] writing requirements to ../../build/rover_control/rover_control.egg-info/requires.txt
+[6.123s] writing top-level names to ../../build/rover_control/rover_control.egg-info/top_level.txt
+[6.129s] reading manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'
+[6.144s] writing manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'
+[6.145s] running build
+[6.145s] running build_py
+[6.146s] running install
+[6.146s] running install_lib
+[6.147s] running install_data
+[6.154s] running install_egg_info
+[6.154s] removing '/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.156s] Copying ../../build/rover_control/rover_control.egg-info to /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover_control-0.0.0-py3.10.egg-info
+[6.164s] running install_scripts
+[6.266s] Installing rover_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control
+[6.271s] writing list of installed files to '/home/abdul/ros2_ws/build/rover_control/install.log'
+[6.477s] Invoked command in '/home/abdul/ros2_ws/src/rover_control' returned '0': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/abdul/ros2_ws/build/rover_control/build install --record /home/abdul/ros2_ws/build/rover_control/install.log --single-version-externally-managed install_data

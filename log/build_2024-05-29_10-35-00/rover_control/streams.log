@@ -1,0 +1,21 @@
+[4.774s] Invoking command in '/home/abdul/ros2_ws/build/rover_control': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdul/ros2_ws/build/rover_control/build --no-deps symlink_data --force
+[6.297s] running develop
+[6.304s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.304s]   warnings.warn(
+[7.295s] running egg_info
+[7.296s] writing rover_control.egg-info/PKG-INFO
+[7.297s] writing dependency_links to rover_control.egg-info/dependency_links.txt
+[7.298s] writing entry points to rover_control.egg-info/entry_points.txt
+[7.299s] writing requirements to rover_control.egg-info/requires.txt
+[7.300s] writing top-level names to rover_control.egg-info/top_level.txt
+[7.312s] reading manifest file 'rover_control.egg-info/SOURCES.txt'
+[7.321s] writing manifest file 'rover_control.egg-info/SOURCES.txt'
+[7.323s] running build_ext
+[7.325s] Creating /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover-control.egg-link (link to .)
+[7.328s] Installing rover_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control
+[7.330s] 
+[7.331s] Installed /home/abdul/ros2_ws/build/rover_control
+[7.332s] running symlink_data
+[7.333s] symbolically linking /home/abdul/ros2_ws/build/rover_control/resource/rover_control -> /home/abdul/ros2_ws/install/rover_control/share/ament_index/resource_index/packages
+[7.336s] symbolically linking /home/abdul/ros2_ws/build/rover_control/package.xml -> /home/abdul/ros2_ws/install/rover_control/share/rover_control
+[7.635s] Invoked command in '/home/abdul/ros2_ws/build/rover_control' returned '0': PYTHONPATH=/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abdul/ros2_ws/build/rover_control/build --no-deps symlink_data --force

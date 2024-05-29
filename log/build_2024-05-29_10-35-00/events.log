@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.001185] (encoder_reader) JobQueued: {'identifier': 'encoder_reader', 'dependencies': OrderedDict()}
+[0.002180] (rover_control) JobQueued: {'identifier': 'rover_control', 'dependencies': OrderedDict()}
+[0.002794] (encoder_reader) JobStarted: {'identifier': 'encoder_reader'}
+[0.066534] (rover_control) JobStarted: {'identifier': 'rover_control'}
+[0.101423] (-) TimerEvent: {}
+[0.203254] (-) TimerEvent: {}
+[0.304189] (-) TimerEvent: {}
+[0.405057] (-) TimerEvent: {}
+[0.505782] (-) TimerEvent: {}
+[0.606535] (-) TimerEvent: {}
+[0.707368] (-) TimerEvent: {}
+[0.808125] (-) TimerEvent: {}
+[0.908859] (-) TimerEvent: {}
+[1.009653] (-) TimerEvent: {}
+[1.110473] (-) TimerEvent: {}
+[1.211232] (-) TimerEvent: {}
+[1.312025] (-) TimerEvent: {}
+[1.413034] (-) TimerEvent: {}
+[1.513956] (-) TimerEvent: {}
+[1.614691] (-) TimerEvent: {}
+[1.715560] (-) TimerEvent: {}
+[1.816549] (-) TimerEvent: {}
+[1.917254] (-) TimerEvent: {}
+[2.017937] (-) TimerEvent: {}
+[2.118714] (-) TimerEvent: {}
+[2.219434] (-) TimerEvent: {}
+[2.320146] (-) TimerEvent: {}
+[2.420998] (-) TimerEvent: {}
+[2.521915] (-) TimerEvent: {}
+[2.623064] (-) TimerEvent: {}
+[2.724515] (-) TimerEvent: {}
+[2.825955] (-) TimerEvent: {}
+[2.927373] (-) TimerEvent: {}
+[3.028432] (-) TimerEvent: {}
+[3.129482] (-) TimerEvent: {}
+[3.230256] (-) TimerEvent: {}
+[3.331238] (-) TimerEvent: {}
+[3.432658] (-) TimerEvent: {}
+[3.533532] (-) TimerEvent: {}
+[3.634391] (-) TimerEvent: {}
+[3.735232] (-) TimerEvent: {}
+[3.836131] (-) TimerEvent: {}
+[3.937062] (-) TimerEvent: {}
+[4.040493] (-) TimerEvent: {}
+[4.141539] (-) TimerEvent: {}
+[4.244295] (-) TimerEvent: {}
+[4.345299] (-) TimerEvent: {}
+[4.446195] (-) TimerEvent: {}
+[4.547291] (-) TimerEvent: {}
+[4.648630] (-) TimerEvent: {}
+[4.752996] (-) TimerEvent: {}
+[4.836896] (rover_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/abdul/ros2_ws/build/rover_control/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/abdul/ros2_ws/build/rover_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdul', 'SSH_CLIENT': '127.0.0.1 38812 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/abdul', 'OLDPWD': '/home/abdul', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6ea21cd-54c7-496f-852e-5c97f0986dc8.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/abdul/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abdul/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bd4ec48914.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/abdul/ros2_ws/install/rover_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/abdul/ros2_ws/build/rover_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '127.0.0.1 38812 127.0.0.1 22', 'XDG_DATA_DIRS': '/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.853265] (-) TimerEvent: {}
+[4.863871] (encoder_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/abdul/ros2_ws/build/encoder_reader/build', '--no-deps', 'symlink_data'], 'cwd': '/home/abdul/ros2_ws/build/encoder_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdul', 'SSH_CLIENT': '127.0.0.1 38812 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/abdul', 'OLDPWD': '/home/abdul', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6ea21cd-54c7-496f-852e-5c97f0986dc8.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/abdul/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abdul/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bd4ec48914.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/abdul/ros2_ws/install/rover_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/abdul/ros2_ws/build/encoder_reader', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '127.0.0.1 38812 127.0.0.1 22', 'XDG_DATA_DIRS': '/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdul/ros2_ws/build/encoder_reader/prefix_override:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.953432] (-) TimerEvent: {}
+[5.054269] (-) TimerEvent: {}
+[5.156184] (-) TimerEvent: {}
+[5.257410] (-) TimerEvent: {}
+[5.358311] (-) TimerEvent: {}
+[5.459142] (-) TimerEvent: {}
+[5.560016] (-) TimerEvent: {}
+[5.660965] (-) TimerEvent: {}
+[5.761769] (-) TimerEvent: {}
+[5.862603] (-) TimerEvent: {}
+[5.963315] (-) TimerEvent: {}
+[6.064181] (-) TimerEvent: {}
+[6.165118] (-) TimerEvent: {}
+[6.266040] (-) TimerEvent: {}
+[6.363321] (rover_control) StdoutLine: {'line': b'running develop\n'}
+[6.366153] (-) TimerEvent: {}
+[6.370306] (rover_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.371194] (rover_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.384616] (encoder_reader) StdoutLine: {'line': b'running develop\n'}
+[6.386353] (encoder_reader) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.389353] (encoder_reader) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.466529] (-) TimerEvent: {}
+[6.567878] (-) TimerEvent: {}
+[6.669471] (-) TimerEvent: {}
+[6.770291] (-) TimerEvent: {}
+[6.871035] (-) TimerEvent: {}
+[6.971955] (-) TimerEvent: {}
+[7.072951] (-) TimerEvent: {}
+[7.173698] (-) TimerEvent: {}
+[7.274417] (-) TimerEvent: {}
+[7.361475] (rover_control) StdoutLine: {'line': b'running egg_info\n'}
+[7.362333] (rover_control) StdoutLine: {'line': b'writing rover_control.egg-info/PKG-INFO\n'}
+[7.363675] (rover_control) StdoutLine: {'line': b'writing dependency_links to rover_control.egg-info/dependency_links.txt\n'}
+[7.364917] (rover_control) StdoutLine: {'line': b'writing entry points to rover_control.egg-info/entry_points.txt\n'}
+[7.365732] (rover_control) StdoutLine: {'line': b'writing requirements to rover_control.egg-info/requires.txt\n'}
+[7.366447] (rover_control) StdoutLine: {'line': b'writing top-level names to rover_control.egg-info/top_level.txt\n'}
+[7.374650] (-) TimerEvent: {}
+[7.377680] (rover_control) StdoutLine: {'line': b"reading manifest file 'rover_control.egg-info/SOURCES.txt'\n"}
+[7.379414] (encoder_reader) StdoutLine: {'line': b'running egg_info\n'}
+[7.379981] (encoder_reader) StdoutLine: {'line': b'creating encoder_reader.egg-info\n'}
+[7.380885] (encoder_reader) StdoutLine: {'line': b'writing encoder_reader.egg-info/PKG-INFO\n'}
+[7.382035] (encoder_reader) StdoutLine: {'line': b'writing dependency_links to encoder_reader.egg-info/dependency_links.txt\n'}
+[7.385743] (encoder_reader) StdoutLine: {'line': b'writing entry points to encoder_reader.egg-info/entry_points.txt\n'}
+[7.386334] (encoder_reader) StdoutLine: {'line': b'writing requirements to encoder_reader.egg-info/requires.txt\n'}
+[7.386882] (encoder_reader) StdoutLine: {'line': b'writing top-level names to encoder_reader.egg-info/top_level.txt\n'}
+[7.387369] (rover_control) StdoutLine: {'line': b"writing manifest file 'rover_control.egg-info/SOURCES.txt'\n"}
+[7.387946] (encoder_reader) StdoutLine: {'line': b"writing manifest file 'encoder_reader.egg-info/SOURCES.txt'\n"}
+[7.389245] (rover_control) StdoutLine: {'line': b'running build_ext\n'}
+[7.391662] (rover_control) StdoutLine: {'line': b'Creating /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover-control.egg-link (link to .)\n'}
+[7.392668] (encoder_reader) StdoutLine: {'line': b"reading manifest file 'encoder_reader.egg-info/SOURCES.txt'\n"}
+[7.394652] (encoder_reader) StdoutLine: {'line': b"writing manifest file 'encoder_reader.egg-info/SOURCES.txt'\n"}
+[7.395262] (rover_control) StdoutLine: {'line': b'Installing rover_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control\n'}
+[7.396396] (rover_control) StdoutLine: {'line': b'\n'}
+[7.397216] (rover_control) StdoutLine: {'line': b'Installed /home/abdul/ros2_ws/build/rover_control\n'}
+[7.398316] (rover_control) StdoutLine: {'line': b'running symlink_data\n'}
+[7.399177] (rover_control) StdoutLine: {'line': b'symbolically linking /home/abdul/ros2_ws/build/rover_control/resource/rover_control -> /home/abdul/ros2_ws/install/rover_control/share/ament_index/resource_index/packages\n'}
+[7.400476] (rover_control) StdoutLine: {'line': b'symbolically linking /home/abdul/ros2_ws/build/rover_control/package.xml -> /home/abdul/ros2_ws/install/rover_control/share/rover_control\n'}
+[7.404679] (encoder_reader) StdoutLine: {'line': b'running build_ext\n'}
+[7.406673] (encoder_reader) StdoutLine: {'line': b'Creating /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder-reader.egg-link (link to .)\n'}
+[7.414212] (encoder_reader) StdoutLine: {'line': b'Installing encoder_reader_node script to /home/abdul/ros2_ws/install/encoder_reader/lib/encoder_reader\n'}
+[7.418535] (encoder_reader) StdoutLine: {'line': b'\n'}
+[7.431362] (encoder_reader) StdoutLine: {'line': b'Installed /home/abdul/ros2_ws/build/encoder_reader\n'}
+[7.433973] (encoder_reader) StdoutLine: {'line': b'running symlink_data\n'}
+[7.439341] (encoder_reader) StdoutLine: {'line': b'creating /home/abdul/ros2_ws/install/encoder_reader/share/ament_index\n'}
+[7.445939] (encoder_reader) StdoutLine: {'line': b'creating /home/abdul/ros2_ws/install/encoder_reader/share/ament_index/resource_index\n'}
+[7.456836] (encoder_reader) StdoutLine: {'line': b'creating /home/abdul/ros2_ws/install/encoder_reader/share/ament_index/resource_index/packages\n'}
+[7.459625] (encoder_reader) StdoutLine: {'line': b'symbolically linking /home/abdul/ros2_ws/build/encoder_reader/resource/encoder_reader -> /home/abdul/ros2_ws/install/encoder_reader/share/ament_index/resource_index/packages\n'}
+[7.468701] (encoder_reader) StdoutLine: {'line': b'symbolically linking /home/abdul/ros2_ws/build/encoder_reader/package.xml -> /home/abdul/ros2_ws/install/encoder_reader/share/encoder_reader\n'}
+[7.477252] (-) TimerEvent: {}
+[7.579091] (-) TimerEvent: {}
+[7.680331] (-) TimerEvent: {}
+[7.701138] (rover_control) CommandEnded: {'returncode': 0}
+[7.782054] (-) TimerEvent: {}
+[7.812316] (rover_control) JobEnded: {'identifier': 'rover_control', 'rc': 0}
+[7.819692] (encoder_reader) CommandEnded: {'returncode': 0}
+[7.860575] (encoder_reader) JobEnded: {'identifier': 'encoder_reader', 'rc': 0}
+[7.863634] (-) EventReactorShutdown: {}

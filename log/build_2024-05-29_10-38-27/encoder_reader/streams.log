@@ -1,0 +1,24 @@
+[4.495s] Invoking command in '/home/abdul/ros2_ws/src/encoder_reader': PYTHONPATH=/home/abdul/ros2_ws/build/encoder_reader/prefix_override:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/abdul/ros2_ws/build/encoder_reader/build install --record /home/abdul/ros2_ws/build/encoder_reader/install.log --single-version-externally-managed install_data
+[5.823s] running egg_info
+[5.826s] writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+[5.828s] writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+[5.829s] writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+[5.830s] writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt
+[5.831s] writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+[5.842s] reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[5.847s] writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[5.848s] running build
+[5.849s] running build_py
+[5.852s] copying encoder_reader/encoder_reader_node.py -> /home/abdul/ros2_ws/build/encoder_reader/build/lib/encoder_reader
+[5.853s] running install
+[5.854s] running install_lib
+[5.856s] copying /home/abdul/ros2_ws/build/encoder_reader/build/lib/encoder_reader/encoder_reader_node.py -> /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader
+[5.860s] byte-compiling /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader/encoder_reader_node.py to encoder_reader_node.cpython-310.pyc
+[5.864s] running install_data
+[5.867s] running install_egg_info
+[5.872s] removing '/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info' (and everything under it)
+[5.874s] Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info
+[5.882s] running install_scripts
+[5.984s] Installing encoder_reader_node script to /home/abdul/ros2_ws/install/encoder_reader/lib/encoder_reader
+[5.986s] writing list of installed files to '/home/abdul/ros2_ws/build/encoder_reader/install.log'
+[6.191s] Invoked command in '/home/abdul/ros2_ws/src/encoder_reader' returned '0': PYTHONPATH=/home/abdul/ros2_ws/build/encoder_reader/prefix_override:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/abdul/ros2_ws/build/encoder_reader/build install --record /home/abdul/ros2_ws/build/encoder_reader/install.log --single-version-externally-managed install_data
