@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'rover_control_node = rover_control.rover_control_node:main'
+            'rover_control_node = rover_control.rover_control_node:main',
+            'pid_control_node = rover_control.pid_control_node:main'
         ],
     },
 )

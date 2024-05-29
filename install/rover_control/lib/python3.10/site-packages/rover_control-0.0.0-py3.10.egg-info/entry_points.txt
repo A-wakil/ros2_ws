@@ -1,3 +1,4 @@
 [console_scripts]
+pid_control_node = rover_control.pid_control_node:main
 rover_control_node = rover_control.rover_control_node:main
 
