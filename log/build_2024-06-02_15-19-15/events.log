@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.002452] (encoder_reader) JobQueued: {'identifier': 'encoder_reader', 'dependencies': OrderedDict()}
+[0.003290] (rover_control) JobQueued: {'identifier': 'rover_control', 'dependencies': OrderedDict()}
+[0.004149] (encoder_reader) JobStarted: {'identifier': 'encoder_reader'}
+[0.067580] (rover_control) JobStarted: {'identifier': 'rover_control'}
+[0.101197] (-) TimerEvent: {}
+[0.202854] (-) TimerEvent: {}
+[0.303603] (-) TimerEvent: {}
+[0.404438] (-) TimerEvent: {}
+[0.505318] (-) TimerEvent: {}
+[0.606115] (-) TimerEvent: {}
+[0.706904] (-) TimerEvent: {}
+[0.807626] (-) TimerEvent: {}
+[0.908366] (-) TimerEvent: {}
+[1.009186] (-) TimerEvent: {}
+[1.110019] (-) TimerEvent: {}
+[1.210733] (-) TimerEvent: {}
+[1.311586] (-) TimerEvent: {}
+[1.413091] (-) TimerEvent: {}
+[1.515865] (-) TimerEvent: {}
+[1.616850] (-) TimerEvent: {}
+[1.718008] (-) TimerEvent: {}
+[1.818837] (-) TimerEvent: {}
+[1.919787] (-) TimerEvent: {}
+[2.020537] (-) TimerEvent: {}
+[2.121253] (-) TimerEvent: {}
+[2.221946] (-) TimerEvent: {}
+[2.322700] (-) TimerEvent: {}
+[2.423462] (-) TimerEvent: {}
+[2.524167] (-) TimerEvent: {}
+[2.625052] (-) TimerEvent: {}
+[2.726393] (-) TimerEvent: {}
+[2.827570] (-) TimerEvent: {}
+[2.928629] (-) TimerEvent: {}
+[3.030130] (-) TimerEvent: {}
+[3.131086] (-) TimerEvent: {}
+[3.232136] (-) TimerEvent: {}
+[3.332963] (-) TimerEvent: {}
+[3.433819] (-) TimerEvent: {}
+[3.534666] (-) TimerEvent: {}
+[3.635409] (-) TimerEvent: {}
+[3.736298] (-) TimerEvent: {}
+[3.837287] (-) TimerEvent: {}
+[3.938102] (-) TimerEvent: {}
+[4.038908] (-) TimerEvent: {}
+[4.139862] (-) TimerEvent: {}
+[4.242720] (-) TimerEvent: {}
+[4.343791] (-) TimerEvent: {}
+[4.444982] (-) TimerEvent: {}
+[4.545923] (-) TimerEvent: {}
+[4.648825] (-) TimerEvent: {}
+[4.751015] (-) TimerEvent: {}
+[4.816745] (encoder_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/encoder_reader', 'build', '--build-base', '/home/abdul/ros2_ws/build/encoder_reader/build', 'install', '--record', '/home/abdul/ros2_ws/build/encoder_reader/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abdul/ros2_ws/src/encoder_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdul', 'SSH_CLIENT': '127.0.0.1 40362 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/abdul', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-167c9b89-4d31-4a78-b19a-60716b92e02a.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/abdul/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/home/abdul/.local/bin:/opt/ros/humble/bin:/home/abdul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abdul/.local/bin:/home/abdul/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bd4ec48914.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/abdul/ros2_ws/install/rover_control:/home/abdul/ros2_ws/install/encoder_reader:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/abdul/ros2_ws/build/encoder_reader', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '127.0.0.1 40362 127.0.0.1 22', 'XDG_DATA_DIRS': '/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdul/ros2_ws/build/encoder_reader/prefix_override:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.838334] (rover_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover_control', 'build', '--build-base', '/home/abdul/ros2_ws/build/rover_control/build', 'install', '--record', '/home/abdul/ros2_ws/build/rover_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abdul/ros2_ws/src/rover_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdul', 'SSH_CLIENT': '127.0.0.1 40362 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/abdul', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-167c9b89-4d31-4a78-b19a-60716b92e02a.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'COLCON_PREFIX_PATH': '/home/abdul/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/abdul/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/home/abdul/.local/bin:/opt/ros/humble/bin:/home/abdul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/abdul/.local/bin:/home/abdul/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bd4ec48914.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/abdul/ros2_ws/install/rover_control:/home/abdul/ros2_ws/install/encoder_reader:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/abdul/ros2_ws/build/rover_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '127.0.0.1 40362 127.0.0.1 22', 'XDG_DATA_DIRS': '/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdul/ros2_ws/build/rover_control/prefix_override:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages:/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.851075] (-) TimerEvent: {}
+[4.952155] (-) TimerEvent: {}
+[5.053798] (-) TimerEvent: {}
+[5.165053] (-) TimerEvent: {}
+[5.265881] (-) TimerEvent: {}
+[5.366724] (-) TimerEvent: {}
+[5.467516] (-) TimerEvent: {}
+[5.568391] (-) TimerEvent: {}
+[5.669177] (-) TimerEvent: {}
+[5.770055] (-) TimerEvent: {}
+[5.870879] (-) TimerEvent: {}
+[5.971842] (-) TimerEvent: {}
+[6.073011] (-) TimerEvent: {}
+[6.173813] (-) TimerEvent: {}
+[6.201083] (encoder_reader) StdoutLine: {'line': b'running egg_info\n'}
+[6.204179] (encoder_reader) StdoutLine: {'line': b'writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO\n'}
+[6.206551] (encoder_reader) StdoutLine: {'line': b'writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt\n'}
+[6.208609] (encoder_reader) StdoutLine: {'line': b'writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt\n'}
+[6.212713] (encoder_reader) StdoutLine: {'line': b'writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt\n'}
+[6.213501] (rover_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.214196] (encoder_reader) StdoutLine: {'line': b'writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt\n'}
+[6.216499] (rover_control) StdoutLine: {'line': b'writing ../../build/rover_control/rover_control.egg-info/PKG-INFO\n'}
+[6.220123] (rover_control) StdoutLine: {'line': b'writing dependency_links to ../../build/rover_control/rover_control.egg-info/dependency_links.txt\n'}
+[6.221141] (rover_control) StdoutLine: {'line': b'writing entry points to ../../build/rover_control/rover_control.egg-info/entry_points.txt\n'}
+[6.221649] (rover_control) StdoutLine: {'line': b'writing requirements to ../../build/rover_control/rover_control.egg-info/requires.txt\n'}
+[6.222105] (encoder_reader) StdoutLine: {'line': b"reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[6.222836] (rover_control) StdoutLine: {'line': b'writing top-level names to ../../build/rover_control/rover_control.egg-info/top_level.txt\n'}
+[6.225031] (encoder_reader) StdoutLine: {'line': b"writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[6.225995] (encoder_reader) StdoutLine: {'line': b'running build\n'}
+[6.226634] (encoder_reader) StdoutLine: {'line': b'running build_py\n'}
+[6.227910] (encoder_reader) StdoutLine: {'line': b'running install\n'}
+[6.229450] (encoder_reader) StdoutLine: {'line': b'running install_lib\n'}
+[6.231097] (rover_control) StdoutLine: {'line': b"reading manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'\n"}
+[6.235298] (rover_control) StdoutLine: {'line': b"writing manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'\n"}
+[6.236623] (encoder_reader) StdoutLine: {'line': b'running install_data\n'}
+[6.237387] (rover_control) StdoutLine: {'line': b'running build\n'}
+[6.238341] (rover_control) StdoutLine: {'line': b'running build_py\n'}
+[6.238922] (encoder_reader) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.239459] (rover_control) StdoutLine: {'line': b'copying rover_control/pid_control_node.py -> /home/abdul/ros2_ws/build/rover_control/build/lib/rover_control\n'}
+[6.240292] (rover_control) StdoutLine: {'line': b'running install\n'}
+[6.241297] (rover_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.244595] (encoder_reader) StdoutLine: {'line': b"removing '/home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.245600] (rover_control) StdoutLine: {'line': b'copying /home/abdul/ros2_ws/build/rover_control/build/lib/rover_control/pid_control_node.py -> /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover_control\n'}
+[6.248616] (encoder_reader) StdoutLine: {'line': b'Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/abdul/ros2_ws/install/encoder_reader/lib/python3.10/site-packages/encoder_reader-0.0.0-py3.10.egg-info\n'}
+[6.249518] (rover_control) StdoutLine: {'line': b'byte-compiling /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover_control/pid_control_node.py to pid_control_node.cpython-310.pyc\n'}
+[6.253850] (rover_control) StdoutLine: {'line': b'running install_data\n'}
+[6.254667] (rover_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.257858] (encoder_reader) StdoutLine: {'line': b'running install_scripts\n'}
+[6.262677] (rover_control) StdoutLine: {'line': b"removing '/home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.264872] (rover_control) StdoutLine: {'line': b'Copying ../../build/rover_control/rover_control.egg-info to /home/abdul/ros2_ws/install/rover_control/lib/python3.10/site-packages/rover_control-0.0.0-py3.10.egg-info\n'}
+[6.277124] (-) TimerEvent: {}
+[6.282267] (rover_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.356373] (encoder_reader) StdoutLine: {'line': b'Installing encoder_reader_node script to /home/abdul/ros2_ws/install/encoder_reader/lib/encoder_reader\n'}
+[6.358729] (encoder_reader) StdoutLine: {'line': b"writing list of installed files to '/home/abdul/ros2_ws/build/encoder_reader/install.log'\n"}
+[6.377431] (-) TimerEvent: {}
+[6.387047] (rover_control) StdoutLine: {'line': b'Installing pid_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control\n'}
+[6.389553] (rover_control) StdoutLine: {'line': b'Installing rover_control_node script to /home/abdul/ros2_ws/install/rover_control/lib/rover_control\n'}
+[6.394780] (rover_control) StdoutLine: {'line': b"writing list of installed files to '/home/abdul/ros2_ws/build/rover_control/install.log'\n"}
+[6.477845] (-) TimerEvent: {}
+[6.561731] (encoder_reader) CommandEnded: {'returncode': 0}
+[6.578129] (-) TimerEvent: {}
+[6.640242] (encoder_reader) JobEnded: {'identifier': 'encoder_reader', 'rc': 0}
+[6.645539] (rover_control) CommandEnded: {'returncode': 0}
+[6.677554] (rover_control) JobEnded: {'identifier': 'rover_control', 'rc': 0}
+[6.680855] (-) TimerEvent: {}
+[6.681210] (-) EventReactorShutdown: {}

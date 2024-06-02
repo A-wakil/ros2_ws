@@ -36,7 +36,7 @@ class PIDControlNode(Node):
         self.motor2 = self.mh.getMotor(self.motor2_id)
         self.pid = PID(1.0, 0, 0)
         self.pid2 = PID(1.0, 0, 0)
-        self.target_speed = 4000  # Setpoint for target speed in encoder counts per second
+        self.target_speed = 4500  # Setpoint for target speed in encoder counts per second
         self.max_encoder_speed = 5150  # Calculated max speed in encoder counts per second
         self.last_time = time.time()
         self.last_encoder1_value = 0

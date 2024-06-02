@@ -19,14 +19,9 @@ class RoverControlNode(Node):
             self.control_callback,
             10
         )
-        self.lock_file = '/tmp/myprogram.lock'
         self.setup_rover()
 
     def setup_rover(self):
-        if os.path.exists(self.lock_file):
-            sys.exit()
-        open(self.lock_file, 'w').close()
-
         try:
             self.mh = Adafruit_MotorHAT()
             self.motor_id = 1
@@ -46,8 +41,6 @@ class RoverControlNode(Node):
         
         except Exception as e:
             self.get_logger().error(f"Error setting up rover: {e}")
-            os.remove(self.lock_file)
-            sys.exit()
 
     def control_callback(self, msg):
         command = msg.data
@@ -64,8 +57,6 @@ class RoverControlNode(Node):
         except Exception as e:
             self.get_logger().error(f"Error executing command {command}: {e}")
             self.stop_rover()
-            os.remove(self.lock_file)
-            sys.exit()
 
     def move_forward(self):
         self.motor.setSpeed(self.speed)
@@ -91,8 +82,6 @@ class RoverControlNode(Node):
 
     def destroy_node(self):
         self.stop_rover()
-        if os.path.exists(self.lock_file):
-            os.remove(self.lock_file)
         super().destroy_node()
 
 def main(args=None):
