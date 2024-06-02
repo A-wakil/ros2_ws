@@ -18,7 +18,7 @@ class SerialReaderNode(Node):
             try:
                 encoder1_value, encoder2_value = map(int, line.split(","))
                 msg = Int64MultiArray()
-                msg.data = [encoder1_value, encoder2_value]
+                msg.data = [-encoder1_value, -encoder2_value]
                 self.publisher_.publish(msg)
             except ValueError:
                 self.get_logger().error('Invalid data received: %s' % line)

@@ -64,15 +64,17 @@ class PIDControlNode(Node):
             # Compute the control signals
             control = self.pid.compute(self.target_speed, speed)
             control2 = self.pid2.compute(self.target_speed, speed2)
-
-            # Scale the control signal to speed values (0 to 255)
             max_speed = 255
-            speed_control = min(max(int(control / self.max_encoder_speed * max_speed), 0), max_speed)
-            speed_control2 = min(max(int(control2 / self.max_encoder_speed * max_speed), 0), max_speed)
+
+            motor_speed = (speed/self.max_encoder_speed)*max_speed
+            motor2_speed = (speed2/self.max_encoder_speed)*max_speed
+            # Scale the control signal to speed values (0 to 255)
+            speed_control = min(max(int((control / self.max_encoder_speed) * max_speed), 0), max_speed)
+            speed_control2 = min(max(int((control2 / self.max_encoder_speed) * max_speed), 0), max_speed)
 
             # Set motor speeds
-            self.motor.setSpeed(speed_control)
-            self.motor2.setSpeed(speed_control2)
+            self.motor.setSpeed(speed_control+int(motor_speed))
+            self.motor2.setSpeed(speed_control2+int(motor2_speed))
 
             # Run motors (assuming forward direction)
             # self.motor.run(Adafruit_MotorHAT.FORWARD)
